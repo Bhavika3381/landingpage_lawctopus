@@ -1,8 +1,8 @@
 import { FaCheckCircle, FaUserGraduate, FaBriefcase, FaLaptopCode, FaGlobe } from "react-icons/fa";
-import img1 from "../../assets/law1.jpg";
-import img2 from "../../assets/law2.jpg";
-import img3 from "../../assets/law3.jpg";
-import img4 from "../../assets/law4.jpg";
+import img1 from "../../assets/Law1.jpg";
+import img2 from "../../assets/Law2.jpg";
+import img3 from "../../assets/Law3.jpg";
+import img4 from "../../assets/Law4.jpg";
 
 function LawCoursePage() {
   const highlights = [

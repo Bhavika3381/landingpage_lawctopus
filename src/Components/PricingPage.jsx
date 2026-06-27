@@ -1,5 +1,4 @@
-import { pricing } from "../components/pricingData";
-
+import { pricing } from "./PricingData";
 function PricingPage() {
   return (
     <div className="min-h-screen bg-[#07070c] text-white px-6 py-24 relative overflow-hidden">
