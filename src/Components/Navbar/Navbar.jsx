@@ -70,7 +70,7 @@ function Navbar() {
         <div className="hidden md:block">
           <button
             onClick={() => navigate("/contact")}
-            className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2.5 rounded-xl font-semibold shadow-md hover:shadow-lg transition-all duration-300"
+            className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2.5 rounded-xl font-semibold shadow-md hover:shadow-lg transition-all duration-300 font-semibold transition cursor-pointer"
           >
             Contact Us
           </button>

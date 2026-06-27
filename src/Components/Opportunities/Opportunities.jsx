@@ -114,7 +114,7 @@ function Opportunities() {
             className="flex-1 border rounded-xl px-4 py-3 outline-none"
           />
 
-          <button className="bg-orange-500 text-white px-8 py-3 rounded-xl">
+          <button className="bg-orange-500 text-white px-8 py-3 rounded-xl font-semibold transition cursor-pointer">
             Search
           </button>
 
@@ -166,7 +166,7 @@ function Opportunities() {
                       {item.author} • {item.date}
                     </p>
 
-                    <button className="mt-5 text-orange-500 font-semibold">
+                    <button className="mt-5 text-orange-500 font-semibold hover:text-orange-600 transition font-semibold transition cursor-pointer">
                       Read More →
                     </button>
 
@@ -202,7 +202,7 @@ function Opportunities() {
                 Learn practical contract drafting from experts.
               </p>
 
-              <button className="mt-4 bg-orange-500 text-white px-5 py-2 rounded-xl">
+              <button className="mt-4 bg-orange-500 text-white px-5 py-2 rounded-xl font-semibold hover:bg-orange-600 transition cursor-pointer">
                 Register
               </button>
 
@@ -218,7 +218,7 @@ function Opportunities() {
                 Get internships, jobs and workshop alerts directly.
               </p>
 
-              <button className="mt-5 bg-white text-orange-600 px-5 py-2 rounded-xl font-semibold">
+              <button className="mt-5 bg-white text-orange-600 px-5 py-2 rounded-xl font-semibold transition cursor-pointer">
                 Join Now
               </button>
 

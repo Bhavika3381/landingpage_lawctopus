@@ -13,7 +13,7 @@ function Contact() {
 
           <button
             onClick={() => navigate(-1)}
-            className="mb-6 text-sm bg-white/20 hover:bg-white/30 px-4 py-2 rounded-full w-fit transition"
+            className="mb-6 text-sm bg-white/20 hover:bg-white/30 px-4 py-2 rounded-full w-fit transition cursor-pointer"
           >
             ← Back
           </button>
@@ -27,11 +27,9 @@ function Contact() {
           </p>
 
           <div className="mt-8 space-y-4 text-sm">
-
             <p>📍 India</p>
             <p>📧 support@lawctopuslearn.com</p>
             <p>📞 +91 98765 43210</p>
-
           </div>
 
         </div>
@@ -52,28 +50,30 @@ function Contact() {
             <input
               type="text"
               placeholder="Your Name"
-              className="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:border-orange-400"
+              className="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:border-orange-400 cursor-text"
             />
 
             <input
               type="email"
               placeholder="Your Email"
-              className="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:border-orange-400"
+              className="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:border-orange-400 cursor-text"
             />
 
             <input
               type="text"
               placeholder="Subject"
-              className="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:border-orange-400"
+              className="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:border-orange-400 cursor-text"
             />
 
             <textarea
               rows="5"
               placeholder="Your Message"
-              className="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:border-orange-400"
+              className="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:border-orange-400 cursor-text"
             />
 
-            <button className="w-full bg-orange-500 hover:bg-orange-600 text-white py-3 rounded-xl font-semibold transition">
+            <button
+              className="w-full bg-orange-500 hover:bg-orange-600 text-white py-3 rounded-xl font-semibold transition cursor-pointer"
+            >
               Send Message →
             </button>
 

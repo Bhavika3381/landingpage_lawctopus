@@ -15,8 +15,8 @@ function Hero() {
         <div className="flex-1 text-center md:text-left">
 
           <div className="mt-8 inline-flex items-center gap-2 bg-orange-50 border border-orange-200 px-4 py-2 rounded-full text-sm font-medium text-orange-600">
-  🚀 Learn Without Limits
-</div>
+            🚀 Learn Without Limits
+          </div>
 
           <h1 className="mt-6 text-4xl md:text-6xl font-extrabold text-gray-900 leading-tight">
             Learn New Skills <br />
@@ -30,11 +30,11 @@ function Hero() {
           {/* Buttons */}
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
 
-            <button className="bg-orange-500 hover:bg-orange-600 text-white px-7 py-3 rounded-xl font-semibold shadow-lg transition">
+            <button className="bg-orange-500 hover:bg-orange-600 text-white px-7 py-3 rounded-xl font-semibold shadow-lg transition cursor-pointer">
               Get Started
             </button>
 
-            <button className="border border-gray-300 hover:border-orange-400 text-gray-800 px-7 py-3 rounded-xl font-semibold transition">
+            <button className="border border-gray-300 hover:border-orange-400 text-gray-800 px-7 py-3 rounded-xl font-semibold transition cursor-pointer">
               Explore Courses
             </button>
 
@@ -60,41 +60,40 @@ function Hero() {
         </div>
 
         {/* ================= RIGHT SIDE ================= */}
-        {/* ================= RIGHT SIDE ================= */}
-<div className="flex-1 relative flex justify-center items-center">
+        <div className="flex-1 relative flex justify-center items-center">
 
-  {/* Background Glow */}
-  <div className="absolute w-[280px] h-[280px] bg-orange-300 blur-3xl opacity-20 rounded-full"></div>
+          {/* Background Glow */}
+          <div className="absolute w-[280px] h-[280px] bg-orange-300 blur-3xl opacity-20 rounded-full"></div>
 
-  {/* Floating Badge */}
-  <div className="absolute top-6 left-6 bg-white shadow-md border border-gray-200 text-orange-500 rounded-xl px-4 py-2 text-sm font-semibold animate-bounce z-30">
-    🎓 Top Rated Courses
-  </div>
+          {/* Floating Badge */}
+          <div className="absolute top-6 left-6 bg-white shadow-md border border-gray-200 text-orange-500 rounded-xl px-4 py-2 text-sm font-semibold animate-bounce z-30 cursor-pointer">
+            🎓 Top Rated Courses
+          </div>
 
-  {/* IMAGE STACK */}
-  <div className="relative w-[340px] md:w-[420px] h-[420px] flex items-center justify-center">
+          {/* IMAGE STACK */}
+          <div className="relative w-[340px] md:w-[420px] h-[420px] flex items-center justify-center">
 
-    {/* BACK IMAGE (LEFT SIDE) */}
-    <div className="absolute -left-10 top-10 z-10">
-      <img
-        src={img1}
-        alt="student 1"
-        className="w-64 md:w-80 h-120 object-cover rounded-2xl shadow-2xl border border-white"
-      />
-    </div>
+            {/* BACK IMAGE */}
+            <div className="absolute -left-10 top-10 z-10">
+              <img
+                src={img1}
+                alt="student 1"
+                className="w-64 md:w-80 object-cover rounded-2xl shadow-2xl border border-white"
+              />
+            </div>
 
-    {/* FRONT IMAGE (SHIFTED MORE TO RIGHT ✔️) */}
-    <div className="absolute right-[-90px] bottom-8 z-20">
-      <img
-        src={img2}
-        alt="student 2"
-        className="w-56 md:w-72 h-80 object-cover rounded-2xl shadow-2xl border-4 border-white"
-      />
-    </div>
+            {/* FRONT IMAGE */}
+            <div className="absolute right-[-90px] bottom-8 z-20">
+              <img
+                src={img2}
+                alt="student 2"
+                className="w-56 md:w-72 object-cover rounded-2xl shadow-2xl border-4 border-white"
+              />
+            </div>
 
-  </div>
+          </div>
 
-</div>
+        </div>
 
       </div>
     </section>

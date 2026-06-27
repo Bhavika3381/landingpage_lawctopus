@@ -72,7 +72,7 @@ function PricingPage() {
 
             {/* button */}
             <button
-              className={`mt-8 w-full py-3 rounded-xl font-semibold transition duration-300
+              className={`mt-8 w-full py-3 rounded-xl font-semibold transition cursor-pointer duration-300
               ${
                 item.tag === "BEST VALUE"
                   ? "bg-orange-500 hover:bg-orange-600 shadow-lg shadow-orange-500/30"

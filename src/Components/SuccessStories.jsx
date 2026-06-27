@@ -250,6 +250,7 @@ function SuccessStories() {
         font-semibold
         hover:scale-105
         transition
+        cursor-pointer
       ">
         Enroll Now →
       </button>
