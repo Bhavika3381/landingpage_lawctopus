@@ -4,16 +4,20 @@ import { Outlet } from "react-router-dom";
 
 function Layout() {
   return (
-    <>
+    <div className="min-h-screen flex flex-col">
+
+      {/* Navbar */}
       <Navbar />
 
       {/* Page Content */}
-      <div className="pt-20">
+      <main className="flex-1 pt-20">
         <Outlet />
-      </div>
+      </main>
 
+      {/* Footer */}
       <Footer />
-    </>
+
+    </div>
   );
 }
 
