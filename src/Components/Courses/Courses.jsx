@@ -49,13 +49,16 @@ function LawCoursePage() {
         </p>
 
         <div className="mt-10 flex justify-center gap-4 flex-wrap">
-          <button className="bg-orange-500 hover:bg-orange-600 px-8 py-3 rounded-full font-semibold shadow-lg">
-            Enroll Now
-          </button>
-          <button className="border border-gray-500 px-8 py-3 rounded-full hover:border-orange-400">
-            View Curriculum
-          </button>
-        </div>
+
+  <button className="bg-orange-500 hover:bg-orange-600 px-8 py-3 rounded-full font-semibold shadow-lg cursor-pointer hover:cursor-grab transition">
+    Enroll Now
+  </button>
+
+  <button className="border border-gray-500 px-8 py-3 rounded-full hover:border-orange-400 cursor-pointer hover:cursor-grab transition">
+    View Curriculum
+  </button>
+
+</div>
       </section>
 
       {/* ================= HIGHLIGHTS ================= */}

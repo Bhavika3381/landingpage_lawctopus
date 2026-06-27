@@ -28,17 +28,18 @@ function Hero() {
           </p>
 
           {/* Buttons */}
-          <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+          {/* Buttons */}
+<div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
 
-            <button className="bg-orange-500 hover:bg-orange-600 text-white px-7 py-3 rounded-xl font-semibold shadow-lg transition cursor-pointer">
-              Get Started
-            </button>
+  <button className="bg-orange-500 hover:bg-orange-600 text-white px-7 py-3 rounded-xl font-semibold shadow-lg transition cursor-pointer hover:cursor-grab">
+    Get Started
+  </button>
 
-            <button className="border border-gray-300 hover:border-orange-400 text-gray-800 px-7 py-3 rounded-xl font-semibold transition cursor-pointer">
-              Explore Courses
-            </button>
+  <button className="border border-gray-300 hover:border-orange-400 text-gray-800 px-7 py-3 rounded-xl font-semibold transition cursor-pointer hover:cursor-grab">
+    Explore Courses
+  </button>
 
-          </div>
+</div>
 
           {/* Stats */}
           <div className="mt-10 flex gap-6 text-sm text-gray-600 justify-center md:justify-start">

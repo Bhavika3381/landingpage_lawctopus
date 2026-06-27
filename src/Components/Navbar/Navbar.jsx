@@ -68,13 +68,13 @@ function Navbar() {
 
         {/* CONTACT BUTTON */}
         <div className="hidden md:block">
-          <button
-            onClick={() => navigate("/contact")}
-            className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2.5 rounded-xl font-semibold shadow-md hover:shadow-lg transition-all duration-300 font-semibold transition cursor-pointer"
-          >
-            Contact Us
-          </button>
-        </div>
+  <button
+    onClick={() => navigate("/contact")}
+    className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2.5 rounded-xl font-semibold shadow-md hover:shadow-lg transition-all duration-300 cursor-pointer hover:cursor-grab"
+  >
+    Contact Us
+  </button>
+</div>
 
         {/* MOBILE MENU BUTTON */}
         <button
